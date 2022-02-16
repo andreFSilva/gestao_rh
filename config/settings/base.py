@@ -88,6 +88,7 @@ LOCAL_APPS = [
     "apps.departamentos.apps.DepartamentosConfig",
     "apps.documentos.apps.DocumentosConfig",
     "apps.empresas.apps.EmpresasConfig",
+    "apps.funcionarios.apps.FuncionariosConfig",
     "apps.registro_hora_extra.apps.RegistroHoraExtraConfig",
     "apps.usuarios.apps.UsuariosConfig",
     # Your stuff: custom apps go here
