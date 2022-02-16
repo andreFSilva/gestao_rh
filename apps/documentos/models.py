@@ -1,8 +1,11 @@
 from django.db import models
+from ..funcionarios.models import Funcionario
 
 
 class Documento(models.Model):
     descricao = models.CharField(max_length=100)
+    pertence = models.ForeignKey(
+        Funcionario, on_delete=models.PROTECT)
 
     class Meta:
         verbose_name = 'Documento'
