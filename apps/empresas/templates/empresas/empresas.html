@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Empresas</h1>
+			<a href="{% url 'empresas_list' %}">listas de empresas</a>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
