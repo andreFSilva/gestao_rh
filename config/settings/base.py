@@ -85,12 +85,12 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "gestao_rh.users",
+    "apps.core.apps.CoreConfig",
     "apps.departamentos.apps.DepartamentosConfig",
     "apps.documentos.apps.DocumentosConfig",
     "apps.empresas.apps.EmpresasConfig",
     "apps.funcionarios.apps.FuncionariosConfig",
     "apps.registro_hora_extra.apps.RegistroHoraExtraConfig",
-    "apps.usuarios.apps.UsuariosConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

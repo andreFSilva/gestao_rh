@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, ListView
+from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Empresa
 
 
-class EmpresasView(TemplateView):
+class EmpresasView(LoginRequiredMixin, TemplateView):
     template_name = 'empresas/empresas.html'
 
 
